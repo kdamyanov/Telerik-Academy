@@ -1,0 +1,43 @@
+﻿body {
+    background-color: #595959;
+    font-family: Calibri, Sans-serif;
+}
+
+thead {
+    background-color: #59BD06;
+    color: #FFFFFF;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,th {
+    text-align: left;
+}
+
+th {
+   padding: 5px 10px;
+   border: 1px solid #3A8F08;
+}
+
+td {
+   padding: 5px 60px 5px 10px;
+   border: 1px solid #C7C5AE;
+}
+
+tr.odd {
+    background-color: #FFFFFF;
+}
+
+tr.even {
+    background-color: #ECECD8;
+}
+
+.flags {
+    margin-right: 10px;
+}
+
+img {
+    float: left;
+}

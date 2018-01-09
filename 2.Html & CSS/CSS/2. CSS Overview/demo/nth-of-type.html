@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        p:nth-of-type(2) {
+            color: red;
+        }
+
+        table {
+            border: solid black 1px;
+        }
+
+        tr:nth-child(2n) {
+            background-color: red;
+        }
+
+        tr:nth-child(2n+1) {
+            background-color: blueviolet;
+        }
+
+        tr:nth-child(1) {
+            background-color: green;
+        }
+
+        .good {
+            color: snow;
+            border: solid black;
+        }
+
+        .good::before {
+            content: "-";
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Paragraphe 1</p>
+    <p>Paragraphe 2</p>
+    <table>
+        <tr>
+            <th>N.</th>
+            <th>Name</th>
+            <th>Years</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Kiril</td>
+            <td>35</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Iliana</td>
+            <td class="good">32</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Qvor</td>
+            <td>32</td>
+        </tr>
+    </table>
+</body>
+
+</html>

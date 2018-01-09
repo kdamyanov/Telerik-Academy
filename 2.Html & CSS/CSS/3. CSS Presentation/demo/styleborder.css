@@ -1,0 +1,17 @@
+body{
+    background-color:  blueviolet;
+}
+
+
+.border{
+    border: ridge 6px white;
+    width: 300px;
+    height: 50px;
+    border-top-right-radius:  25px;
+    
+}
+.border-shadow{
+    width: 200px;
+    background-color:  aqua;
+    box-shadow: 5px 5px 5px darkblue; 
+}

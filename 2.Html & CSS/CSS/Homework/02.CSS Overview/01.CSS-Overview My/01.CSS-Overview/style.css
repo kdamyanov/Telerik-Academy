@@ -1,0 +1,57 @@
+table {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    background-color: #595959;
+    width: 304px;
+    height: 205px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 16px;
+    font-weight: normal;
+    color: gray;
+    padding: 10px 0px;
+}
+
+
+
+
+td:first-of-type {
+  
+    color: white;
+    font-style: italic;
+    width: 130px;
+}
+
+.gold {
+    color: #FFECAE;
+}
+
+.grey {
+    color: grey;
+}
+
+.red {
+    color: red;
+    vertical-align: top;
+    padding-top: 0px;
+}
+
+.orange {
+    color: orangered;
+}
+
+#picture {
+    background: url("green-light.png") no-repeat left center;
+    text-indent: 20px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: #FFECAE;
+}

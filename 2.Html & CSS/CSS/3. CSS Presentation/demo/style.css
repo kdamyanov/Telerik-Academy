@@ -1,0 +1,65 @@
+body {
+    background-color: blueviolet;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+.text-inherit {
+    color: lawngreen;
+    background-color: black;
+    font-style: normal;
+}
+
+.text-normal {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: tangerine;
+}
+
+a {
+    text-decoration: none;
+    cursor: help;
+}
+
+.text-align {
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    text-align: justify;
+    border: 4px solid black;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-variant: small-caps;
+}
+
+.text-shadow {
+    width: 100%;
+    font-size: 1em;
+    text-shadow: 3px 3px 4px ghostwhite;
+}
+
+.text-overflow {
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.word-wrapping {
+    font-style: italic;
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
+}

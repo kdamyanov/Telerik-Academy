@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Table</title>
+	<style>
+		table,
+		th,
+		td {
+			border: 2px ridge #d4d0d0;
+		}
+	</style>
+</head>
+
+<body>
+	<table cellpadding="1" cellspacing="1">
+		<colgroup>
+			<col width="50px" />
+			<col width="40px" />
+			<col width="40px" />
+			<col width="40px" />
+			<col width="40px" />
+		</colgroup>
+		<tr>
+			<td colspan="3" align="center">Title goes here</td>
+			<td align="center">A</td>
+			<td align="right">B</td>
+		</tr>
+		<tr>
+			<td rowspan="3">C</td>
+			<td align="center">D</td>
+			<td align="center">E</td>
+			<td align="center">F</td>
+			<td align="right">G</td>
+		</tr>
+		<tr>
+			<td align="center">H</td>
+			<td colspan="2" align="center">I</td>
+			<td rowspan="2" align="right" valign="bottom">J</td>
+		</tr>
+		<tr align="center">
+			<td>K</td>
+			<td>L</td>
+			<td>M</td>
+		</tr>
+		<tr>
+			<td align="right">N</td>
+			<td colspan="4" align="center">O</td>
+		</tr>
+	</table>
+</body>
+
+</html>

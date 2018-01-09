@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8" />
+    <style>
+        table {
+            background: #73dcff;
+            border: 2px solid #00bfff;
+            border-collapse: collapse;
+            text-shadow: 2px 2px 3px #808080;
+        }
+        
+        td {
+            font-family: Consolas;
+            font-size: 40px;
+            border: 2px solid #2626ff;
+            padding: 13px 25px;
+            color: #2626ff;
+        }
+        
+        #result {
+            text-align: right;
+            padding-right: 15px;
+        }
+        
+        #zero {
+            text-align: center;
+        }
+        
+        .buttons > td:hover {
+            background: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td id="result" colspan="4">123</td>
+        </tr>
+        <tr class="buttons">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>+</td>
+        </tr>
+        <tr class="buttons">
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td>-</td>
+        </tr>
+        <tr class="buttons">
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>*</td>
+        </tr>
+        <tr class="buttons">
+            <td id="zero" colspan="2">0</td>
+            <td>.</td>
+            <td>/</td>
+        </tr>
+    </table>
+</body>
+
+</html>
